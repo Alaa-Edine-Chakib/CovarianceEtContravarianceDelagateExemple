@@ -12,7 +12,7 @@ namespace CovarianceEtContravarianceDelagateExemple
         {
             VoitureFactoryDelegate voitureFactoryDelegate = VoitureFactory.RetourneVoitureCombustion;
 
-            Voiture voitureEssence = voitureFactoryDelegate(1, "Audi R8");
+            Voiture voitureEssence = voitureFactoryDelegate(1, "Audi R");
 
             //Console.WriteLine($"Type Objet: {voitureEssence.GetType()}");
             //Console.WriteLine($"Detail Voiture: {voitureEssence.GetInfosVoiture()}");
